@@ -1,0 +1,203 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body and container styling */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #fdf7f7;
+   
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+/* Header styling */
+header {
+    background: #242020;
+    padding: 20px 0;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    position: relative;
+    z-index: 1000;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo {
+    display: flex;
+    align-items: center;
+}
+
+header .logo img {
+    max-height: 90px;
+    margin-right: 10px;
+}
+
+header .logo h1 {
+    font-size: 1.8em;
+    color: #a39d9d;
+}
+
+header nav {
+    display: flex;
+}
+
+.nav-links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.nav-links li {
+    margin-left: 20px;
+}
+
+.nav-links a {
+    color: #fae9e9;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+    color: #ff6347; /* Color on hover */
+}
+
+.header-content {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.header-content h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #a82a2a;
+}
+
+.header-content p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+    color: #f5ebeb;
+}
+
+.header-content .btn {
+    display: inline-block;
+    padding: 15px 20px;
+    background: #ff6347;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background 0.3s ease;
+}
+
+.header-content .btn:hover {
+    background: #ff4500;
+}
+
+/* Main Section Styling */
+main {
+    padding: 50px 0;
+}
+
+/* Features Section Styling */
+.features {
+    background: #fff;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.feature {
+    margin-bottom: 50px;
+}
+
+.feature img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.feature h2 {
+    font-size: 2.2em;
+    margin: 20px 0;
+    color: #333;
+}
+
+.feature p {
+    font-size: 1.1em;
+    color: #b12e2e;
+}
+
+/* Contact Section Styling */
+.contact {
+    background: #f4f4f4;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.contact h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #221212;
+}
+
+.contact form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.contact input, .contact textarea {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+.contact textarea {
+    resize: vertical;
+    height: 150px;
+}
+
+.contact button {
+    width: 100%;
+    padding: 15px;
+    background: #ff6347;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1em;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.contact button:hover {
+    background: #ff4500;
+}
+
+/* Footer Styling */
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer p {
+    font-size: 0.9em;
+}
